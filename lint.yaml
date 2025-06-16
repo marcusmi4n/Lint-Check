@@ -1,0 +1,4 @@
+    - name: Run Flake8 Lint
+      run: |
+        pip install flake8
+        flake8 .
